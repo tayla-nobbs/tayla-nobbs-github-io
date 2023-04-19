@@ -13,6 +13,7 @@ body {
 
 .buttons {
   margin-bottom: 50px;
+
 }
 
 .block {
@@ -57,3 +58,12 @@ body {
 .no-underline {
   text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+  .block{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+  }
+ }
